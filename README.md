@@ -1,4 +1,4 @@
-# DonutScript :donut:
+# DonutScript 🍩
 
 ![image](images/dstitle.png)
 
