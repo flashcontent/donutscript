@@ -14,9 +14,9 @@ program
 
 fun: FUN def LPAREN def RPAREN;
 
-var: VAR def EQ def;
+var: ID;
 
-def: ID;
+def: ID | '(' ID ')';
 
 PLUS: '+';
 MINUS: '-';
@@ -37,3 +37,7 @@ PRINT: 'print';
 INT : [0-9]+ ;
 ID: [a-zA-Z_][a-zA-Z_0-9]* ;
 WS: [ \t\n\r\f]+ -> skip ;
+
+COMMENT: '--' ~[\r\n]* -> skip;
+
+MULTI_COMMENT: '-*' .*? '*-' -> skip;

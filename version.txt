@@ -1,2 +1,0 @@
-=== Are you updated?
-The current version of your DonutScript build is 1.0, verify if have a new update.

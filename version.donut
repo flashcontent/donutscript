@@ -1,0 +1,5 @@
+require donut
+
+function main():
+ println("The current version of DonutScript is 1.0")
+end
