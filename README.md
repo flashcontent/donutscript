@@ -1,5 +1,7 @@
 # DonutScript :donut:
 
+![image](images/dstitle.png)
+
 * [What is?](https://github.com/flashcontent/donutscript#what-is)
 * [Power](https://github.com/flashcontent/donutscript#power)
 	* [Java](https://github.com/flashcontent/donutscript#java)
