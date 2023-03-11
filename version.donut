@@ -1,5 +1,5 @@
 require donut
 
-function main():
+fun main():
  println("The current version of DonutScript is 1.0")
 end
